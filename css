@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14;
+    text-align: ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border-radius: 100px;
+}
+
+.the5G {
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+.the chinh {
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    position: relative;
+}
+
+.hot-badge {
+    position: absolute;
+    top: 10px;
+    width: 50px;
+   right: -30px; ;
+}
+
+.Nội Dung CHính {
+    padding: 20px;
+    font-size: 24px;
+    color: #555;
+}
+}
+
+
+
+.bold {
+    font-weight: bold;
+}
+
+.separator {
+    height: 1px;
+    background: #ddd;
+    margin: 10px 0;
+}
+
+.btn {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-register {
+    background: red;
+    color: white;
+}
+
+.btn-register::before {
+    content: "✍";
+    margin-right: 8px;
+}
+
+.btn-detail {
+    background: #fff;
+    color: red;
+    border: 2px solid red;
+}
+
+.btn-detail::before {
+    content: "🔍";
+    margin-right: 18px;
+}
