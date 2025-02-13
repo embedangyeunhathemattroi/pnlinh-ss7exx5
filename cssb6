@@ -1,0 +1,46 @@
+* {
+            font-family: Arial, sans-serif;
+            box-sizing: 6px;
+            font-size: 14;
+            border: 1px solid;
+            box-shadow: 4px;
+            border-top-left-radius:8;
+        }
+
+        .Thẻ 1 {
+            width: 250px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        details {
+            border-bottom: 1px solid #ddd;
+        }
+
+        summary {
+            background: #fff;
+            padding: 20px;
+            position: relative;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        details[open] summary {
+            background: #e8f0ff;
+            font-weight: bold;
+        }
+        details[open] summary::after {
+            transform: translateY(-30%) rotate(360deg);
+        }
+
+        summary::after {
+            content: "▼";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.1s;
+        }
+
+       
+
+        
